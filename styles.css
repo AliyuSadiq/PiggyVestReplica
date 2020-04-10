@@ -1,0 +1,138 @@
+html{
+    margin: 0;
+}
+body{ 
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    text-align: center;
+     /* background: #ADD8E6; */
+     background: #062863; 
+     
+}
+a img{
+    margin-top: 1rem;
+}
+main{
+    padding: 40px 0; 
+    margin: 1rem 0;
+    /* background: #ADD8E6;  */
+    }
+
+
+    /* form styling */
+.signup-form{
+    text-align: left;
+    margin: auto;
+    width: 25rem;
+    background: white;
+    padding: 2rem; 
+    border: white;
+    border-radius: 12px 12px 12px 0;
+}
+
+.signup-title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #083e9e;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+
+.signup-paragraph{
+    margin-top: 0;
+    color: #797979;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    /* line-height: 1.5; */
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+
+
+.signup-form label{
+    color: #363636f8;
+    padding: 0;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.signup-form input{
+    background: #edf2f7;
+    border: #edf2f7;
+    border-radius: 2%;
+    outline: none;
+}
+
+/* button section */
+.button-create{
+    /* display: block; */
+    color: white;
+    background: #062863;
+    padding: 1.3rem;
+    margin: 1rem 0;
+    border: #062863;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px 12px 12px 0;
+}
+
+.button-create:hover{
+    background: darkblue;
+}
+
+.account-login{
+    font-family: sans-serif;
+    margin: 2rem 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* image positionning */
+
+.img-1{
+    position: fixed;
+    bottom: 70%;
+    left: 92%;
+    width: 15%;
+    
+}
+
+.img-2{
+    position: fixed;
+    bottom: 79%;
+    right: 86%;
+    width: 15%;
+}
+
+.img-3{
+    position: fixed;
+    top: 75%;
+    right: 90%;
+    width: 15%;
+}
+
+.img-4{
+   position: fixed;
+   top: 73%;
+    left: 90%; 
+    width: 15%;
+}
+
+
+
+
