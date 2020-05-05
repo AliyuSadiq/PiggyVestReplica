@@ -1,67 +1,43 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>PiggyVest | Dashboard</title>
-    
-    <link rel="stylesheet" href="styles.css"> 
-<link rel="icon" type="image/png" sizes="32x32" href="favicon piggyvest\favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
+
 <body>
+    <header>
+        <h1 class="nav-heading">EPL GUESSING GAME</h1>
+        <nav>
+            <ul class="nav-lists">
+                <li class="nav-list">STAGE: <span id="stage-change"></span></li>
+                <li class="nav-list score">SCORE: <span id="score-change">0</span></li>
+            </ul>
+        </nav>
+    </header>
     
-<a href="https://www.piggyvest.com"><img src="https://res.cloudinary.com/dpwpt2slv/image/upload/v1586462547/logo_m0gxi2_kzo973.svg" alt="piggyvest logo"></a>
-      
-
-<img class="img-1" src="side-pics/piggyvest3.png" alt="">
-  <img class="img-2" src="side-pics/piggyvest2.png" alt="">
-      <main class="signup-page">
-        
-        <form action="index.html" class="signup-form">
-          <h2 class="signup-title">Create a Secure Account</h2>
-        <p class="signup-paragraph">Welcome to the future of Savings & Investments</p>
-
-            <label for="Full-Name">Full Name</label>
-            <input type="text" id="Full-Name" required placeholder="Full Name">
-            <label for="Email-address">Email Address</label>
-            <input type="email" id="email-address" required placeholder="Email Address">
-            <label for="Phone-Number" class="invalid">Phone Number</label>
-            <input type="Phone-Number" id="Phone-Number" required placeholder="Phone Number">
-            <label for="password">Password</label>
-            <input type="password" id="password" required placeholder="Password">
-            <label for="promo-code">Referrer Phone or Promo Code (optional)</label>
-            <input type="text" id="promo-code"  placeholder="Referrer Phone or Code">
-            
-        
-            <label for="title">How did you hear about us? (optional)</label>
-            <select id="title">
-                <option  placeholder="Phone Number">Click To Select </option>
-                <option value="Facebook">Facebook</option>
-                <option value="Twitter">Twitter</option>
-                <option value="Instagram">Instagram</option>
-                <option value="Family">Friend/Family/Coworker Referral</option>
-                <option value="Google-search">Google search</option>
-                <option value="Google-playstore">Google-playstore</option>
-                <option value="Online-blog">Online blog</option>
-                <option value="Local-newspaper">Local newspaper</option>
-                <option value="Event">At an Event</option>
-                <option value="Other">Other</option>
-            </select>
-
-           <button type="submit" class="button-create">CREATE ACCOUNT</button>
-
-           <!-- <a href="#" class="account-login">Already have an account? Log in</a> -->
-        </form>
-      </main>
-
-        <a href="https://dashboard.piggyvest.com/login" class="account-login">Already have an account? Log in</a>
-    
+    <div class="container">
+        <h3 id="score-update" class="hide">Each correc</h3>
+        <h3 id="questions-note">You get 10 points for Each correct answer, there are 5 available questions</h3>
+        <div id="questions-holder" class="hide">
+            <div id="questions">Arsenal Football Clubs highest Scorer?</div>
+            <div class="answer-container">
+                <button class="btn-select" data-number="1" id="answer-1">Choice 1</button>
+                <button class="btn-select" data-number="2" id="answer-2">Choice 2</button>
+                <button class="btn-select" data-number="3" id="answer-3">Choice 3</button>
+                <button class="btn-select" data-number="4" id="answer-4">Choice 4</button>
+            </div>
+        </div>
+        <div class="control-container">
+            <button id="begin-btn">Begin</button>
+            <button id="next-btn" class="hide">Next</button>
+        </div>
+    </div>
 
 
-
-
-
-
-<img class="img-3" src="side-pics/piggyvest4.png" alt="">  <img class="img-4" src="side-pics/piggyvest1.png" alt="">
-
+    <script src="index.js"></script>
 </body>
+
 </html>
